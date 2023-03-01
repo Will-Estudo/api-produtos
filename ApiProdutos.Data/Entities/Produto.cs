@@ -18,6 +18,7 @@ namespace ApiProdutos.Data.Entities
         private int? _quantidade;
         private DateTime? _dataHoraCadastro;
         private Guid? _idCategoria;
+        private Categoria? _categoria;
 
         public Guid? Id { get => _id; set => _id = value; }
         public string? Nome { get => _nome; set => _nome = value; }
@@ -26,5 +27,6 @@ namespace ApiProdutos.Data.Entities
         public int? Quantidade { get => _quantidade; set => _quantidade = value; }
         public DateTime? DataHoraCadastro { get => _dataHoraCadastro; set => _dataHoraCadastro = value; }
         public Guid? IdCategoria { get => _idCategoria; set => _idCategoria = value; }
+        public Categoria? Categoria { get => _categoria; set => _categoria = value; }
     }
 }
